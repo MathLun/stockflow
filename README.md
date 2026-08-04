@@ -19,4 +19,11 @@ StockFlow é uma API REST para gerenciamento de estoque desenvolvida em Laravel.
 
 ## Objetivo
 
-Projeto desenvolvido para estudo de arquitetura, Laravel e boas práticas de desenvolvimento de software. 
+Projeto desenvolvido para estudo de arquitetura, Laravel e boas práticas de desenvolvimento de software.
+
+## Features
+
+- [x] Product CRUD
+- [x] Product Validation
+- [x] Product Feature Tests
+
