@@ -31,7 +31,7 @@ Projeto desenvolvido para estudo de arquitetura, Laravel e boas práticas de des
 
 ## Retrospectives
 
-- [Sprint 01 - Product Catalog](docs/retrospective/sprint-01.md)
+- [Sprint 01 - Product Catalog](docs/retrospectives/sprint-01.md)
 
 ## Releases
 
