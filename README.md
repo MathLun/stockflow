@@ -29,7 +29,11 @@ Projeto desenvolvido para estudo de arquitetura, Laravel e boas práticas de des
 
 # Documentation
 
-## Retrospectives
+## Sprint Planning
+
+- [Sprint 02 - Category Module](docs/planning/sprint-02.md)
+
+## Sprint Retrospectives
 
 - [Sprint 01 - Product Catalog](docs/retrospectives/sprint-01.md)
 
