@@ -27,3 +27,12 @@ Projeto desenvolvido para estudo de arquitetura, Laravel e boas práticas de des
 - [x] Product Validation
 - [x] Product Feature Tests
 
+# Documentation
+
+## Retrospectives
+
+- [Sprint 01 - Product Catalog](docs/retrospective/sprint-01.md)
+
+## Releases
+
+- [v0.1.0 - Product Catalog](https://github.com/mathlun/stockflow/releases/tag/v0.1.0)
