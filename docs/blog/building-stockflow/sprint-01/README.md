@@ -25,13 +25,13 @@ Ao final da Sprint 01 foram entregues:
 
 ## Artigos desta Sprint
 
-- "Planejamento da Sprint" (01-planning.md)
-- "Modelando o domínio Product" (02-domain-model.md)
-- "Criando a Migration" (03-migration.md)
-- "Implementando o CRUD" (04-crud.md)
-- "Escrevendo Feature Tests" (05-feature-tests.md)
-- "Release da Sprint" (06-release.md)
-- "Retrospectiva" (07-retrospective.md)
+- ["Planejamento da Sprint"](01-planning.md)
+- ["Modelando o domínio Product"](02-domain-model.md)
+- ["Criando a Migration"](03-migration.md)
+- ["Implementando o CRUD"](04-crud.md)
+- ["Escrevendo Feature Tests"](05-feature-tests.md)
+- ["Release da Sprint"](06-release.md)
+- ["Retrospectiva"](07-retrospective.md)
 
 ## Release
 
