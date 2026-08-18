@@ -23,6 +23,11 @@ jobs:
       - name: Install Composer dependencies
         run: composer install --prefer-dist --no-interaction --no-progress
 
+      - name: Prepare application
+        run: |
+          cp .env.example .env
+          php artisan key:generate
+
       - name: Run Pint
         run: ./vendor/bin/pint --test
 
