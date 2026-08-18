@@ -2,9 +2,9 @@
 
 namespace App\Http\Requests;
 
-use Illuminate\Validation\Rule;
 use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Rule;
 
 class UpdateProductRequest extends FormRequest
 {
@@ -24,11 +24,11 @@ class UpdateProductRequest extends FormRequest
     public function rules(): array
     {
         return [
-	  'name' => ['required', 'string', 'max:255'],
-	  'sku' => ['required', 'string', 'max:255', Rule::unique('products', 'sku')->ignore($this->route('id'))],
-	  'description' => ['nullable', 'string'],
-	  'price' => ['required', 'numeric', 'min:0'],
-	  'active' => ['boolean']
+            'name' => ['required', 'string', 'max:255'],
+            'sku' => ['required', 'string', 'max:255', Rule::unique('products', 'sku')->ignore($this->route('id'))],
+            'description' => ['nullable', 'string'],
+            'price' => ['required', 'numeric', 'min:0'],
+            'active' => ['boolean'],
         ];
     }
 }

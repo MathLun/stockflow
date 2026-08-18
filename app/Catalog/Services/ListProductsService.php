@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Collection;
 
 class ListProductsService
 {
-	public function execute(): Collection
-	{
-		return Product::all();
-	}
+    public function execute(): Collection
+    {
+        return Product::all();
+    }
 }
