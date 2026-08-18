@@ -6,9 +6,9 @@ use App\Models\Product;
 
 class DeleteProductService
 {
-	public function execute(int $id): void
-	{
-		$product = Product::findOrFail($id);
-		$product->delete();
-	}
+    public function execute(int $id): void
+    {
+        $product = Product::findOrFail($id);
+        $product->delete();
+    }
 }
