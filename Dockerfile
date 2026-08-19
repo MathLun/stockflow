@@ -50,4 +50,4 @@ RUN sed -i 's|^listen = .*|listen = 127.0.0.1:9000|' /usr/local/etc/php-fpm.d/ww
 
 EXPOSE 10000
 
-CMD ["sh", "-c", "php-fpm -D && nginx -g 'daemon off;'"]
+CMD ["sh", "-c", "nginx -t && php-fpm -D && nginx -g 'daemon off;'"]
