@@ -29,6 +29,14 @@ Projeto desenvolvido para estudo de arquitetura, Laravel e boas práticas de des
 
 # Documentation
 
+## Deployment
+
+The Stockflow application is deployed using Docker on Render.
+
+For the complete deployment configuration, environment variables, infrastructure setup, and troubleshooting:
+
+- [Deploying to Render](docs/deployment/render.md)
+
 ## Sprint Planning
 
 - [Sprint 02 - Category Module](docs/planning/sprint-02.md)
