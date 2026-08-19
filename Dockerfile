@@ -53,7 +53,8 @@ RUN rm -f /etc/nginx/sites-enabled/default
 # Laravel writable directories
 RUN chown -R www-data:www-data \
     storage \
-    bootstrap/cache
+    bootstrap/cache \
+    database
 
 # PHP-FPM
 RUN sed -i 's|^listen = .*|listen = 127.0.0.1:9000|' /usr/local/etc/php-fpm.d/www.conf
