@@ -26,10 +26,13 @@ RUN composer install \
     --no-interaction \
     --no-progress \
     --prefer-dist \
-    --optimize-autoloader
+    --optimize-autoloader \
+    --no-scripts
 
 # Application
 COPY . .
+
+RUN php artisan package:discover --ansi
 
 # Nginx configuration
 COPY docker/nginx/default.conf /etc/nginx/conf.d/default.conf
